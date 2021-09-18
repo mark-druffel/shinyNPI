@@ -48,7 +48,7 @@ usethis::use_git(message = "Initial commit")
 golem::use_recommended_tests()
 
 ## Use Recommended Packages ----
-golem::use_recommended_deps()
+golem::use_recommended_deps(recommended = c("shiny", "reactable", "attempt", "glue", "htmltools", "golem", "leaflet", "arrow", "dplyr", "tidyr", "magrittr", "purrr", "plotly", "ggplot2", "osmdata"))
 
 ## Favicon ----
 # If you want to change the favicon (default is golem's one)

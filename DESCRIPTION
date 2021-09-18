@@ -5,11 +5,33 @@ Authors@R: person('Mark', 'Druffel', email = 'mark.druffel@gmail.com', role = c(
 Description: Shiny app to explore the National Provider Identifier (NPI) registry.
 License: MIT + file LICENSE
 Imports: 
+    arrow,
+    attempt,
+    bs4Dash,
     config (>= 0.3.1),
+    dplyr,
+    ggplot2,
+    glue,
     golem (>= 0.3.1),
-    shiny (>= 1.6.0)
+    htmltools,
+    leaflet,
+    magrittr,
+    npi,
+    osmdata,
+    plotly,
+    processx,
+    purrr,
+    reactable,
+    shin,
+    shiny (>= 1.6.0),
+    tidyr
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
 URL: https://github.com/mark-druffel/shinyNPI
 BugReports: https://github.com/mark-druffel/shinyNPI/issues
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
